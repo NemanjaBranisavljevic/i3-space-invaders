@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>I-3 Space Invaders</title>
+<title>I-3 Napadaci iz svemira</title>
 <style>
   body { margin: 0; background: black; overflow: hidden; font-family: monospace; text-align: center; color: #fff; }
   h1 { margin: 20px 0 10px 0; font-size: 36px; color: #00ffff; text-shadow: 2px 2px #000; }
@@ -40,7 +40,7 @@
 </head>
 <body>
 
-<h1>I-3 Space Invaders</h1>
+<h1>I-3 Napadači iz svemira</h1>
 
 <!-- Game Over Modal -->
 <div id="gameOverModal">
@@ -75,7 +75,7 @@ let bullets = [];
 let enemies = [];
 let enemyBullets = [];
 const enemySprites = [];
-for(let i=1; i<=29; i++){
+for(let i=1; i<=26; i++){
   const img = new Image();
   img.src = `sprites/${i}.png`;
   enemySprites.push(img);
